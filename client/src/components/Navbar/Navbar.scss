@@ -1,6 +1,6 @@
 .Navbar {
   position: fixed;
-  width: 250px;
+  width: 12%;
   height: 95vh;
   background: #fff;
   margin: 20px;
@@ -8,8 +8,6 @@
   box-shadow: rgba(149, 157, 165, 0.2) 0px 4px 8px;
   overflow: hidden;
   padding: 15px;
-  //   display: flex;
-  //   flex-direction: column;
   display: grid;
   grid-template-rows: 0.5fr 4fr 1fr 0.5fr;
 
