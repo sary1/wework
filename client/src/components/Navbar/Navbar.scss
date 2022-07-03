@@ -1,0 +1,74 @@
+.Navbar {
+  position: fixed;
+  width: 250px;
+  height: 95vh;
+  background: #fff;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 4px 8px;
+  overflow: hidden;
+  padding: 15px;
+  //   display: flex;
+  //   flex-direction: column;
+  display: grid;
+  grid-template-rows: 0.5fr 4fr 1fr 0.5fr;
+
+  &-logo {
+    margin: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    & img {
+      width: 35%;
+    }
+  }
+
+  &-routes {
+    &-item {
+      display: flex;
+      align-items: center;
+      color: #34495e;
+      margin: 15px;
+      cursor: pointer;
+      padding: 10px;
+      border-radius: 10px;
+      transition: all 0.15s ease-in-out;
+
+      &:hover {
+        color: #3498db;
+        background-color: hsla(204, 64%, 44%, 0.15);
+      }
+
+      &Brand {
+        &:nth-child(1) {
+          padding-right: 20px;
+        }
+      }
+    }
+  }
+
+  &-graphic {
+    margin: 10px;
+    cursor: pointer;
+    & img {
+      width: 100%;
+    }
+  }
+
+  &-logout {
+    display: flex;
+    align-items: center;
+    color: #34495e;
+    margin: 15px;
+    cursor: pointer;
+    max-height: 35px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.15s ease-in-out;
+    align-self: flex-end;
+
+    &:hover {
+      color: #3498db;
+      background-color: hsla(204, 64%, 44%, 0.15);
+    }
+  }
+}

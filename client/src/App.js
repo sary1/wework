@@ -1,9 +1,10 @@
+import Profile from "./pages/Profile";
 import "./App.scss";
 
 function App() {
   return (
     <div className="App">
-      <h2>Hello World</h2>
+      <Profile />
     </div>
   );
 }
