@@ -20,6 +20,7 @@
     height: 100%;
     border-radius: 10px;
     cursor: pointer;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 2px 4px;
 
     &-searchBtn {
       color: #34495e;
@@ -49,6 +50,7 @@
       justify-content: center;
       border-radius: 10px;
       margin-right: 20px;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 2px 4px;
     }
 
     &-info {
@@ -60,6 +62,7 @@
       justify-content: space-between;
       align-items: center;
       padding: 5px 10px;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 2px 4px;
 
       &-pp {
         width: 30px;

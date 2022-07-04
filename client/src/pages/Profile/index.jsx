@@ -6,7 +6,9 @@ const Profile = () => {
   return (
     <div className="Profile">
       <Navbar />
-      <Header />
+      <div className="body">
+        <Header />
+      </div>
     </div>
   );
 };
