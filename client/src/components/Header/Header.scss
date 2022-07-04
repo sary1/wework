@@ -1,7 +1,5 @@
 .Header {
-  //   background: #fff;
-  width: calc(100vw - 350px);
-  margin-left: 350px;
+  width: 100%;
   position: absolute;
   top: 20px;
   height: 40px;
@@ -51,6 +49,7 @@
       border-radius: 10px;
       margin-right: 20px;
       box-shadow: rgba(149, 157, 165, 0.2) 0px 2px 4px;
+      cursor: pointer;
     }
 
     &-info {
@@ -63,6 +62,7 @@
       align-items: center;
       padding: 5px 10px;
       box-shadow: rgba(149, 157, 165, 0.2) 0px 2px 4px;
+      cursor: pointer;
 
       &-pp {
         width: 30px;
@@ -78,10 +78,6 @@
       &-name {
         font-size: 12px;
         font-weight: 600;
-      }
-
-      &-icon {
-        cursor: pointer;
       }
     }
   }
