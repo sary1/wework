@@ -13,7 +13,9 @@ const index = () => {
         />
       </div>
       <div className="Header-userArea">
-        <div className="Header-userArea-notifications"></div>
+        <div className="Header-userArea-notifications">
+          <i class="fa-solid fa-bell"></i>
+        </div>
         <div className="Header-userArea-info"></div>
       </div>
     </div>
