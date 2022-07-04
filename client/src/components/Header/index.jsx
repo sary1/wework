@@ -5,7 +5,12 @@ const index = () => {
   return (
     <div className="Header">
       <div className="Header-searchArea">
-        <input type="text" placeholder="Search" />
+        <i class="Header-searchArea-searchBtn fa-solid fa-magnifying-glass"></i>
+        <input
+          type="text"
+          placeholder="Search"
+          className="Header-searchArea-inputField"
+        />
       </div>
       <div className="Header-userArea">
         <div className="Header-userArea-notifications"></div>

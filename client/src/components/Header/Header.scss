@@ -1,9 +1,36 @@
 .Header {
-  background: #fff;
+  //   background: #fff;
   width: calc(100vw - 350px);
   margin-left: 350px;
   position: absolute;
   top: 20px;
   height: 50px;
   border-radius: 20px;
+  display: flex;
+  align-items: center;
+
+  &-searchArea {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    width: 500px;
+    padding: 5px 20px;
+    height: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+
+    &-searchBtn {
+      color: #34495e;
+    }
+
+    &-inputField {
+      background: transparent;
+      border: none;
+      color: #34495e;
+      margin-left: 25px;
+      cursor: pointer;
+      outline: none;
+      width: 100%;
+    }
+  }
 }
