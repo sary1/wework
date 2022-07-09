@@ -5,7 +5,7 @@ const index = () => {
   return (
     <div className="HeaderNav">
       <div className="HeaderNav-searchArea">
-        <i class="HeaderNav-searchArea-searchBtn fa-solid fa-magnifying-glass"></i>
+        <i className="HeaderNav-searchArea-searchBtn fa-solid fa-magnifying-glass"></i>
         <input
           type="text"
           placeholder="Search"
@@ -14,7 +14,7 @@ const index = () => {
       </div>
       <div className="HeaderNav-userArea">
         <div className="HeaderNav-userArea-notifications">
-          <i class="fa-solid fa-bell"></i>
+          <i className="fa-solid fa-bell"></i>
         </div>
         <div className="HeaderNav-userArea-info">
           <div className="HeaderNav-userArea-info-pp">
@@ -25,7 +25,7 @@ const index = () => {
             />
           </div>
           <p className="HeaderNav-userArea-info-name">Harry Wilson</p>
-          <i class="HeaderNav-userArea-info-icon fa-solid fa-angle-down"></i>
+          <i className="HeaderNav-userArea-info-icon fa-solid fa-angle-down"></i>
         </div>
       </div>
     </div>
